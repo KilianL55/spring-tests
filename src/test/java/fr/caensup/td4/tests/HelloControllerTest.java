@@ -21,7 +21,7 @@ import fr.caensup.td4.services.HelloService;
 
 @WebMvcTest(HelloController.class)
 @ContextConfiguration(classes = {WebSecurityConfig.class, SpringTestsApplication.class})
-class HelloControllerTest {
+class HelloControllerTest extends MockMvcHelper {
 
   @MockBean
   private HelloService helloService;
@@ -34,10 +34,7 @@ class HelloControllerTest {
     // Given
     when(helloService.getMessage()).thenReturn("Bonjour");
     // When
-    ResultActions results = this.mockMvc.perform(MockMvcRequestBuilders.get("/hello"));
-    // Then
-    results.andExpect(MockMvcResultMatchers.status().isOk())
-        .andExpect(content().string(containsString("Bonjour")));
+    checksStatusAndContent("/hello",200,"Bonjour");
   }
 
   @Test

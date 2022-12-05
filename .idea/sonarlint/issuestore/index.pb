@@ -1,0 +1,23 @@
+
+K
+src/main/java/lombok.config,9\9\999358ef8792e060a86bf32d73d46428e2ae1c91
+`
+0src/main/java/fr/caensup/td4/beans/UserBean.java,e\b\eba673956c94a6701b61b5a466ad02731e3027fa
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+k
+;src/test/java/fr/caensup/td4/tests/HelloControllerTest.java,a\b\ab04e0222b8afaca907bec88f78ca414cafaeba2
+h
+8src/main/java/fr/caensup/td4/SpringTestsApplication.java,b\e\becdfc2e1655fd62176a6db0dc802d31f0ac84a1
+g
+7src/main/java/fr/caensup/td4/services/HelloService.java,e\4\e4e44f9ac488c16c9bbcf1fcd7d5ee6d8fa4849c
+l
+<src/main/java/fr/caensup/td4/controllers/UserController.java,3\b\3bb38d6cf3810e7ed79a5f89e8e17d72b413799a
+m
+=src/main/java/fr/caensup/td4/controllers/IndexController.java,4\7\473b7489bbc9cf86ffd8f9d9c10e9d048a5eedfa
+m
+=src/main/java/fr/caensup/td4/controllers/HelloController.java,4\b\4bd22c9b3d70d91f78b61e4912f074797e26271d
+e
+5src/test/java/fr/caensup/td4/tests/MockMvcHelper.java,7\9\791b4bf845653c5f94176bcf36e4a7f708d4fc2e
